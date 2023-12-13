@@ -27,4 +27,5 @@ jobs:
 
     - name: run test
       run: |
+        export DJANGO_SETTINGS_MODULE=mysite.settings
         python manage.py test
